@@ -1,3 +1,4 @@
+// Contact Page
 "use client"
 
 import type React from "react"
@@ -215,7 +216,7 @@ export default function ContactPage() {
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 />
 
-                <Button type="submit" className="w-full bg-healthcare-secondary hover:bg-healthcare-secondary/90">
+                <Button type="submit" className="w-full bg-healthcare-accent hover:bg-healthcare-accent/90">
                   Submit
                 </Button>
               </form>

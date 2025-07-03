@@ -1,3 +1,5 @@
+//Patients Page
+"use client"
 import { Header } from "../components/header"
 import { Footer } from "../components/footer"
 import { Button } from "../components/ui/button"
@@ -107,7 +109,7 @@ export default function PatientsPage() {
             Our culturally aware and community oriented providers speak your language and are here for you.
           </p>
           <Link href="/book-appointment">
-            <Button size="lg" className="bg-healthcare-secondary hover:bg-healthcare-secondary/90">
+            <Button size="lg" className="bg-healthcare-accent hover:bg-healthcare-accent/90">
               Start your visit
             </Button>
           </Link>
@@ -120,12 +122,12 @@ export default function PatientsPage() {
           <section key={index} className="mb-20">
             <div className="flex items-center justify-between mb-12">
               <div className="flex items-center space-x-4">
-                <div className="w-20 h-20 bg-healthcare-secondary/10 rounded-full flex items-center justify-center">
+                <div className="w-20 h-20 bg-healthcare-accent/10 rounded-full flex items-center justify-center">
                   <service.icon className="h-10 w-10 text-healthcare-secondary" />
                 </div>
                 <h2 className="text-3xl font-bold text-healthcare-secondary">{service.title}</h2>
               </div>
-              <div className="w-32 h-32 bg-healthcare-secondary/10 rounded-full flex items-center justify-center">
+              <div className="w-32 h-32 bg-healthcare-accent/10 rounded-full flex items-center justify-center">
                 <service.icon className="h-16 w-16 text-healthcare-secondary" />
               </div>
             </div>
@@ -133,7 +135,7 @@ export default function PatientsPage() {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-8">
               {service.items.map((item, itemIndex) => (
                 <div key={itemIndex} className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-healthcare-secondary rounded-full"></div>
+                  <div className="w-2 h-2 bg-healthcare-accent rounded-full"></div>
                   <span className="text-gray-700">{item}</span>
                 </div>
               ))}
@@ -141,7 +143,7 @@ export default function PatientsPage() {
 
             <div className="text-center">
               <Link href="/book-appointment">
-                <Button className="bg-healthcare-secondary hover:bg-healthcare-secondary/90">
+                <Button className="bg-healthcare-accent hover:bg-healthcare-accent/90">
                   {service.title === "Mental health" ? "Find a Provider" : "See a Doctor"}
                 </Button>
               </Link>
