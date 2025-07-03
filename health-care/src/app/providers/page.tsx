@@ -104,7 +104,7 @@ export default function ProvidersPage() {
                   height={200}
                   className="rounded-lg mb-6"
                 />
-                <Link href="/integrate-practice">
+                <Link href="/practice-register">
                   <Button className="w-full bg-healthcare-accent hover:bg-healthcare-accent/90">
                     Integrate your practice today
                   </Button>
