@@ -1,3 +1,4 @@
+//Signup Page
 "use client"
 
 import type React from "react"
@@ -78,7 +79,7 @@ export default function SignupPage() {
         <div className="max-w-md mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h1 className="text-4xl font-bold text-gray-900 mb-2">
-              Welcome to <span className="text-healthcare-secondary">Cloud Health Care</span>
+              Welcome to <span className="text-healthcare-secondary">Onasi TeleCare</span>
             </h1>
             <p className="text-gray-600">Let's get started!</p>
           </div>
@@ -135,7 +136,7 @@ export default function SignupPage() {
                     onCheckedChange={(checked) => setFormData({ ...formData, agreeToTerms: checked as boolean })}
                   />
                   <label htmlFor="terms" className="text-sm text-gray-600">
-                    By signing up you agree to Cloud Health Care's{" "}
+                    By signing up you agree to Onasi TeleCare's{" "}
                     <Link href="/terms" className="text-healthcare-primary hover:underline">
                       Terms of Use
                     </Link>{" "}
@@ -149,7 +150,7 @@ export default function SignupPage() {
 
                 <Button
                   type="submit"
-                  className="w-full bg-healthcare-secondary hover:bg-healthcare-secondary/90"
+                  className="w-full bg-healthcare-accent hover:bg-healthcare-accent/90"
                   disabled={!formData.agreeToTerms}
                 >
                   Sign Up
@@ -198,18 +199,18 @@ export default function SignupPage() {
       </section>
 
       {/* Bottom Footer */}
-      <div className="bg-healthcare-footer text-white py-8">
+      <div className="bg-healthcare-primary text-white py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center space-x-2 mb-4">
-            <div className="w-10 h-10 bg-healthcare-secondary rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">CH</span>
+            <div className="w-14 h-14 bg-healthcare-accent rounded-full flex items-center justify-center">
+              <span className="text-white font-bold text-lg">OT</span>
             </div>
             <div>
-              <h3 className="text-xl font-bold">Cloud Health Care</h3>
+              <h3 className="text-2xl font-bold">Onasi TeleCare</h3>
               <p className="text-sm text-gray-300">is making your life easy!</p>
             </div>
           </div>
-          <p className="text-center text-gray-300">2020 Cloud Health Care, Inc. All rights reserved.</p>
+          <p className="text-center text-gray-300">© 2025 Onasi TeleCare, Inc. All rights reserved.</p>
         </div>
       </div>
     </div>

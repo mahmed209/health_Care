@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "next/link"
 
 export function Footer() {
   return (
@@ -7,12 +7,12 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-healthcare-secondary rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">CH</span>
+            <div className="flex items-center space-x-3 mb-4">
+              <div className="w-12 h-12 bg-healthcare-accent rounded-full flex items-center justify-center">
+                <span className="text-white font-bold text-lg">OT</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">Cloud Health Care</h3>
+                <h3 className="text-xl font-bold">Onasi TeleCare</h3>
                 <p className="text-sm text-gray-300">is making your life easy!</p>
               </div>
             </div>
@@ -67,7 +67,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-          <p className="text-gray-300">© 2024 Cloud Health Care. All rights reserved.</p>
+          <p className="text-gray-300">© 2024 Onasi TeleCare. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -26,11 +26,11 @@ const config: Config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#15803D",
+          DEFAULT: "#032C26",
           foreground: "#ffffff",
         },
         secondary: {
-          DEFAULT: "#5DCA86",
+          DEFAULT: "#15803D",
           foreground: "#ffffff",
         },
         accent: {
@@ -54,9 +54,11 @@ const config: Config = {
           foreground: "hsl(var(--popover-foreground))",
         },
         healthcare: {
-          primary: "#15803D",
-          secondary: "#5DCA86",
-          footer: "#032C26",
+          primary: "#032C26", // Main dark green
+          secondary: "#15803D", // Medium green
+          accent: "#22C55E", // Bright green
+          light: "#DCFCE7", // Very light green
+          footer: "#032C26", // Footer background
         },
       },
       borderRadius: {

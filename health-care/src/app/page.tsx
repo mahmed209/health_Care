@@ -1,3 +1,4 @@
+//Index
 import { Header } from "./components/header"
 import { Footer } from "./components/footer"
 import { Button } from "./components/ui/button"
@@ -32,32 +33,32 @@ export default function HomePage() {
               <div className="flex flex-wrap gap-3 mb-8">
                 <Button
                   variant="outline"
-                  className="border-healthcare-secondary text-healthcare-primary bg-transparent"
+                  className="border-healthcare-primary text-healthcare-primary bg-transparent hover:bg-healthcare-primary hover:text-white"
                 >
                   English
                 </Button>
                 <Button
                   variant="outline"
-                  className="border-healthcare-secondary text-healthcare-primary bg-transparent"
+                  className="border-healthcare-primary text-healthcare-primary bg-transparent hover:bg-healthcare-primary hover:text-white"
                 >
                   Español
                 </Button>
                 <Button
                   variant="outline"
-                  className="border-healthcare-secondary text-healthcare-primary bg-transparent"
+                  className="border-healthcare-primary text-healthcare-primary bg-transparent hover:bg-healthcare-primary hover:text-white"
                 >
                   中文
                 </Button>
                 <Button
                   variant="outline"
-                  className="border-healthcare-secondary text-healthcare-primary bg-transparent"
+                  className="border-healthcare-primary text-healthcare-primary bg-transparent hover:bg-healthcare-primary hover:text-white"
                 >
                   العربية
                 </Button>
               </div>
 
               <Link href="/signup">
-                <Button size="lg" className="bg-healthcare-secondary hover:bg-healthcare-secondary/90">
+                <Button size="lg" className="bg-healthcare-accent hover:bg-healthcare-accent/90">
                   Get Started
                 </Button>
               </Link>
@@ -65,10 +66,10 @@ export default function HomePage() {
 
             {/* Chat Interface Mockup */}
             <div className="relative">
-              <Card className="max-w-md mx-auto border-healthcare-secondary/20">
+              <Card className="max-w-md mx-auto border-healthcare-primary/20">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3 mb-4">
-                    <div className="w-12 h-12 bg-healthcare-secondary rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-healthcare-primary rounded-full flex items-center justify-center">
                       <span className="text-white font-semibold">Dr</span>
                     </div>
                     <div>
@@ -89,7 +90,7 @@ export default function HomePage() {
       </section>
 
       {/* What We Treat Section */}
-      <section className="py-20 bg-healthcare-secondary">
+      <section className="py-20 bg-healthcare-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-4">What we treat</h2>
           <p className="text-xl text-white/90 mb-12">Comprehensive healthcare services tailored to your needs</p>
@@ -130,12 +131,12 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-healthcare-footer text-white">
+      <section className="py-20 bg-healthcare-secondary text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to talk to a doctor?</h2>
           <p className="text-xl text-gray-300 mb-8">Get started with a consultation in your preferred language</p>
           <Link href="/signup">
-            <Button size="lg" className="bg-healthcare-secondary hover:bg-healthcare-secondary/90">
+            <Button size="lg" className="bg-healthcare-accent hover:bg-healthcare-accent/90">
               Start Consultation
             </Button>
           </Link>

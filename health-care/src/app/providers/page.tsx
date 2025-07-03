@@ -1,3 +1,5 @@
+//Providers Page
+"use client"
 import { Header } from "../components/header"
 import { Footer } from "../components/footer"
 import { Button } from "../components/ui/button"
@@ -79,7 +81,7 @@ export default function ProvidersPage() {
                   <span className="text-healthcare-primary font-medium">🏥 Healthcare team</span>
                 </div>
                 <Link href="/provider-signup">
-                  <Button className="w-full bg-healthcare-secondary hover:bg-healthcare-secondary/90">
+                  <Button className="w-full bg-healthcare-accent hover:bg-healthcare-accent/90">
                     Join our team
                   </Button>
                 </Link>
@@ -89,7 +91,7 @@ export default function ProvidersPage() {
             <Card className="border-healthcare-secondary/20">
               <CardContent className="p-8">
                 <h2 className="text-2xl font-bold text-healthcare-secondary mb-4">
-                  Use Cloud Health Care telemedicine for your practice
+                  Use Onasi TeleCare telemedicine for your practice
                 </h2>
                 <p className="text-gray-600 mb-6">
                   Help us reduce healthcare disparity by offering your patients access to telemedicine in their native
@@ -103,7 +105,7 @@ export default function ProvidersPage() {
                   className="rounded-lg mb-6"
                 />
                 <Link href="/integrate-practice">
-                  <Button className="w-full bg-healthcare-secondary hover:bg-healthcare-secondary/90">
+                  <Button className="w-full bg-healthcare-accent hover:bg-healthcare-accent/90">
                     Integrate your practice today
                   </Button>
                 </Link>
@@ -127,7 +129,7 @@ export default function ProvidersPage() {
                 className="text-center border-healthcare-secondary/20 hover:shadow-lg transition-shadow"
               >
                 <CardContent className="p-8">
-                  <div className="w-16 h-16 bg-healthcare-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-healthcare-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
                     <benefit.icon className="h-8 w-8 text-healthcare-secondary" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{benefit.title}</h3>

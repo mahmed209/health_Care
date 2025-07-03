@@ -6,9 +6,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Cloud Health Care - Healthcare in Your Native Language",
+  title: "Onasi TeleCare",
   description: "Making healthcare accessible in your native language with modern telemedicine solutions.",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
